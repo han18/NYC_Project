@@ -46,7 +46,7 @@ table {
 	border-spacing: 0;
 }
 
-/* ----------the reset ends here -----------------*/
+/* ---------the reset ends here -------*/
 
 /*---------- Body Content -------------*/
 
@@ -70,21 +70,26 @@ h1 {
       height: 300px;
       color: forestgreen;
 }
+
 .navbar {
-      list-style:none;
+      border: solid 2px green;
       color:darkblue;
       display: flex;
-      justify-content: end;
+      justify-content: flex-end;
+      align-items: center;
       gap: 10px;
-      margin: 10px;
-      padding-left: 10px;
+      margin: 10px, 0, 0, 10px;
+      padding-left: 20px;
+}
+
+.nav-item {
+      list-style:none;
+
 }
 
 .logo {
       color:darkmagenta;
-      font-family: "Edwardian Script ITC";
-	font-size: 1.5em;
-      
+	     
 }
 
 
