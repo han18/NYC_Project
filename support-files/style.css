@@ -1,0 +1,92 @@
+/* New York City Style Sheet */
+
+/*html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/*article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+	color: #cf6b00
+}
+body {
+	line-height: 1;
+	background-color: #ffffff;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ----------the reset ends here -----------------*/
+
+/*---------- Body Content -------------*/
+
+body {
+      margin: 0 auto; 
+      width: 1200px;
+      border: 5px solid rgb(186, 186, 211);
+      background-color:bisque;
+      height: 1500px;
+      
+}
+
+h1 {
+      color:crimson;
+}
+
+/*---------- Header Content ---------------*/
+
+#header-content {
+      border: 10px solid black;
+      height: 300px;
+      color: forestgreen;
+}
+.navbar {
+      list-style:none;
+      color:darkblue;
+      display: flex;
+      justify-content: end;
+      gap: 10px;
+      margin: 10px;
+      padding-left: 10px;
+}
+
+.logo {
+      color:darkmagenta;
+      font-family: "Edwardian Script ITC";
+	font-size: 1.5em;
+      
+}
+
+
+/*-------------------------Footer Content --------------------*/
+
